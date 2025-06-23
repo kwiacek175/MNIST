@@ -1,6 +1,6 @@
 # MNIST Digit Classification using CNN (PyTorch)
 
-Projekt ten przedstawia kompletny pipeline klasyfikacji cyfr ręcznie pisanych (MNIST) z wykorzystaniem konwolucyjnej sieci neuronowej (CNN) zaimplementowanej w PyTorch.
+Projekt przedstawia kompletny proces klasyfikacji ręcznie pisanych cyfr ze zbioru MNIST, wykorzystując konwolucyjną sieć neuronową (CNN) zaimplementowaną w bibliotece PyTorch.
 
 ## Cel projektu
 
