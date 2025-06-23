@@ -22,6 +22,17 @@ Projekt ten przedstawia kompletny pipeline klasyfikacji cyfr ręcznie pisanych (
   - zmian wag w czasie,
   - macierzy konfuzji,
   - rozkładu prawdopodobieństw dla przykładowych obrazów
+ 
+## Architektura modelu
+
+- Warstwa konwolucyjna `Conv2d` z 32 filtrami, jądrem 3×3  
+- Warstwa MaxPooling 2×2  
+- Warstwa w pełni połączona (FC) o 128 neuronach  
+- Wyjście: warstwa FC o 10 neuronach (klasy cyfr 0-9)  
+- Funkcja aktywacji: ReLU  
+- Na wyjściu: logarytmiczna funkcja softmax (LogSoftmax)  
+- Optymalizator: Adam  
+- Funkcja straty: NLLLoss (Negative Log Likelihood)  
 
 ## Wymagania
 
